@@ -1,8 +1,9 @@
 library(shiny)
-source("helpers.R")
-counties <- readRDS("data/counties.rds")
 library(maps)
 library(mapproj)
+source("helpers.R")
+counties <- readRDS("data/counties.rds")
+
 
 ui <- fluidPage(
   titlePanel("censusVis"),
